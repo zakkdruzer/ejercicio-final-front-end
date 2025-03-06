@@ -12,7 +12,7 @@ const Issue = (props) => {
     <div id="idLabels">
       {issue.labels.map((label)=>{
           return (
-              <p style={{padding: '10px', border: '1px solid black' }}
+              <p style={{padding: '10px', border: '1px solid black',borderRadius: '10px'}}
             
           >Label: {label.name}</p>
           )

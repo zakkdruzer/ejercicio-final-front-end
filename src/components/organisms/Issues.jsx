@@ -55,7 +55,7 @@ const Issues = () => {
   return (
     <div>
         <h1>React Issues</h1>
-        <input type="text" onChange={()=>{changeInputSearch(event.target.value)}}/>
+        <input style={{margin: '10px'}} type="text" onChange={()=>{changeInputSearch(event.target.value)}}/> Type to filter
         {
             issuesFilter.map((issue) => {
                 return (
